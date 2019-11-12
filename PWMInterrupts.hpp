@@ -1,5 +1,5 @@
-#ifndef PWMRead_H_INCLUDED
-#define PWMRead_H_INCLUDED
+#ifndef PWMInterrupt_H_INCLUDED
+#define PWMInterrupt_H_INCLUDED
 
 #if defined(ARDUINO) && ARDUINO >= 100
 #include "Arduino.h"
@@ -9,9 +9,9 @@
 
 #include <EnableInterrupt.h>
 
-class PWMRead {
+class PWMInterrupt {
   public:
-    PWMRead(byte pin);
+    PWMInterrupt(byte pin);
     void setInterrupt();
     int getVal();
 

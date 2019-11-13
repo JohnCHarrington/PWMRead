@@ -2,6 +2,8 @@
 Author: Ahmad Shahril
 Date: 26/02/2018
 Description: This library is made for using RC receiver with Arduino.
+
+Modified by John Harrington for use with all PWM inputs.
 */
 
 #ifndef PWM_H_INCLUDED
